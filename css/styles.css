@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  background: #fafafa;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.completada {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.btn-completar {
+  background: #28a745;
+}
+.btn-completar:hover {
+  background: #218838;
+}
+.btn-eliminar {
+  background: #dc3545;
+}
+.btn-eliminar:hover {
+  background: #c82333;
+}
+.btn-editar {
+  background: #ffc107;
+  color: #212529;
+}
+.btn-editar:hover {
+  background: #e0a800;
+}
