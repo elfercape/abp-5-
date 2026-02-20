@@ -1,4 +1,5 @@
 TaskFlow - Aplicacion de Gestion de Tareas
+https://github.com/elfercape/abp-5-
 
 Proyecto Integrador ABP Modulo 5
 
@@ -72,3 +73,6 @@ Cumplimiento Consigna:
 - DOM dinamico
 - Eventos completos
 - API + localStorage + errores
+
+Desarrollador: Fernando Lopes
+Santiago, CL - Modulo 5 ABP 2026
